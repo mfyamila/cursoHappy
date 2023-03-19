@@ -1,0 +1,56 @@
+*
+{
+	box-sizing: border-box;
+
+}
+body
+{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+.cabecera
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #cc982a;
+
+}
+.cabecera .link-logo
+{
+	display: inline-block;
+	vertical-align: middle ;	
+}
+.cabecera .link-logo .logo
+{
+	width: 100px;
+	height: auto;
+}
+
+.cabecera .menu
+{
+	display: inline-block;
+	vertical-align: middle ;
+	margin-left: 40%;
+}
+.cabecera .menu a 
+{
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+	color: #000000;
+}
+a
+{
+	display: inline-block;
+}
+.container
+{
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.banner-home
+{
+	width: 100%;
+	height: auto;
+	display: block;
+}

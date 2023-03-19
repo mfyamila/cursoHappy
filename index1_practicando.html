@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Clínica Veterinaria en Flores Guardia Nocturna. Atención Veterinaria 24 hs. Internación. Laboratorio propio. Cirugías. Especialistas. Diagnóstico por Imágenes.Análisis clínicos. Vacunación.  Consultanos!  ">
+	<meta name="keyrds" content="Atención Veterinaria 24 hs, Internación, Laboratorio propio, Cirugías, Especialistas, Diagnóstico por Imágenes, Análisis clínicos, Vacunación">
+	<meta name="author" content="MYamila Ferrufino">
+	<meta property="og:title" content="Medicina Veterinaria" />
+	<meta property="og:type" content="video.movie" />
+	<meta property="og:url" content="https://www.VeterinariaM.com/title/tt0117500/" />
+	<meta property="og:image" content="https://ia.VeterinariaM.com/images/medicina.jpg" />
+		<title> Veterinaria M - Bienvenidos!</title>
+</head>
+<body>
+	<a href="#hocico">Home</a> 
+	<a href="servicios.html">Servicios</a> 
+	<a href="nosotros.hml">Nosotros</a> 
+	<a href="contacto.hml">contacto</a> 
+
+	<form id="frprueba" action="registro.php" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="uid" value="1234">
+		<input type="text" name="nombre" placeholder="Ingrese su nombre" minlength="2" maxlength="20" required  value= "Yamila"> 
+		<input type="password" name="password" placeholder="Ingrese aquí su password">
+		<input type="email" name="correo" placeholder="Ingrese su email">
+		<input type="date" name="fecha" min= "2023-01-01" max="2023-02-15" value="2023-01-13" >
+		<input type="month" name="mes">
+		<input type="week" name="semana">
+		<input type="color" name="color" value="#00ff00">	
+		<input type="range" name="rango" step="10" max="50">
+		<input type="file" name="imagen" multiple  accept=".jpg">	
+		<input type="datetime-local" name="fechayhora">
+		<input type="time" name="hora">
+		<input type="number" name="numero">
+		<input type="url" name="url" placeholder="Ingrese url">
+		<input type="radio" name="mascota" value="gato" checked><label>gato</label> 
+		<input type="radio" name="mascota" value="perro"><label>perro</label> 
+		<input type="checkbox" name="marca[]" checked value="Audi"> <label> Audi</label>
+		<input type="checkbox" name="marca[]" value="toyota" ><label>Toyota</label>
+		<textarea name="mensaje" rows="10" cols="20" placeholder="Ingresa tu mensaje" required></textarea>
+		<select name="especialidades" required multiple>
+			<option value="radiografias">--Seleccione especialidad--</option>
+			<optgroup label="Medica">
+			<option value="radiografias">Radiografias</option>
+			<option value="odontologia">Odontólogía</option> 
+		</optgroup>
+			<optgroup label="dermatologica">
+			<option value="analisis de sangre">analisis de sangre</option>
+			<option value="revision">Revision</option> ></optgroup>
+		</select>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Limpiar">
+		
+		
+	</form>
+
+	<h1>
+		Hola Mundo
+	</h1>
+	<p>
+		<b>Lorem ipsum dolor</b> sit amet, <strong>consectetur adipisicing </strong>elit, sed do eiusmod
+		tempor incididunt ut labore <i>et dolore </i>magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.Duis aute irure dolor in  reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<big>occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laboru</big>
+	</p>
+	<p>
+		<span>  Lorem ipsum dolor sit amet, consectetur  </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut <small>enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</small> enim ad minim veniam,
+		quis nostrud exercitation <br>ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate <mark> esse
+		cillum dolore eu fugiat nulla pariatur. <del> sint occaecat </del>cupidatat</mark> non
+		proident, sunt in culpa qui officia deserunt mollit 2<sup>3</sup> anim id est laborum.H<sub>2</sub>0
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		<blockquote>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote> 
+	</p>
+	<ul>
+		<li>Estudios Clínicos</li>
+		<li>Diagnóstico por imagen</li>
+		<li>Vacunas</li>
+		<li>Internación</li>
+	</ul>
+	<ol>
+		<li>Estudios Clínicos</li>
+		<li>Diagnóstico por imagen</li>
+		<li>Vacunas</li>
+		<li>Internación</li>
+	</ol>
+	<figure>
+			<img id="hocico" src="img/imagen1.jpg" width="1280" height="853" alt="Esta es una imagen de hocico de perro" title="Hocico">
+			<figcaption>
+				Atención Veterinaria.Foto 1
+			</figcaption>
+	</figure>
+	<table border="1" width="100%" bgcolor="tan" cellspacing="10" cellpadding="10">
+		<tr>
+			<th colspan="2" width="30%" bgcolor="chocolate" style="color:white;" height="100">Nombre / DNI</th>
+			<th bgcolor="chocolate">Email </th>
+		</tr>
+		<tr>
+			<td rowspan="2" height="50" align="center">Yamila</td>
+			<td>78951562</td>
+			<td>nuevocorreo@gmail.com</td>
+		</tr>
+		<tr>
+			<!--<td height="50" align="center" valign="middle">Lucia</td> -->
+			<td>5555562</th>
+			<td>lucia123@gmail.com</td>
+		</tr>
+	</table>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/UvSeUoW40Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="50%" height="600%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Adrogue,%20Buenos%20Aires+(Nuestra%20ubicaci%C3%B3n)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html"></iframe>
+</body>
+</html>
