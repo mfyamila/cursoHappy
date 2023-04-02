@@ -2,17 +2,24 @@
 {
 	box-sizing: border-box;
 
+	
 }
 body
 {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300 ;
 	color: #000000;
 }
 .cabecera
 {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #cc982a;
+	/*background-color: rgb(204, 152, 42);  cabecera de color*/ 
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
 
 }
 .cabecera .link-logo
@@ -22,7 +29,7 @@ body
 }
 .cabecera .link-logo .logo
 {
-	width: 100px;
+	width: 70px;
 	height: auto;
 }
 
@@ -30,27 +37,146 @@ body
 {
 	display: inline-block;
 	vertical-align: middle ;
-	margin-left: 40%;
+	margin-left: 49%;
 }
 .cabecera .menu a 
 {
 	margin-left: 7.5px;
 	margin-right: 7.5px;
-	color: #000000;
+	color: rgba(0, 0, 0,1);
+	font-size: 12px;
+	font-weight: 400 ;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	word-spacing: 5px;
 }
 a
 {
 	display: inline-block;
 }
+section
+{
+	position: relative;
+}
 .container
 {
-	width: 1170px;
+	width: 1920;
 	padding: 0 15px;
 	margin: 0 auto;
+}
+/*.container-full
+{
+	width: 100%;
+	padding: 0 15px;	
+}*//*
+.fila
+{
+	margin-left: -15px;
+	margin-right: -15px;
+}*/
+.columna
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	margin-left: -1px;
+	margin-right: -1px;
+	vertical-align: top;
+}
+.columna-100
+{
+	width: 100%;
+}
+.columna-50
+{
+	width: 50%;
+}
+.columna-35
+{
+	width: 35%;
+}
+.columna-33
+{
+	width: 33.33%;
+}
+.section
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.centrar-texto
+{
+	text-align: center;
+}
+.importante
+{
+	font-style: italic;
+}
+.justificar-texto
+{
+	text-align: justify;
 }
 .banner-home
 {
 	width: 100%;
 	height: auto;
-	display: block;
+	
 }
+.btn
+{
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid #bc5ebc;
+}
+.btn.boton-color
+{
+	background-color: #fff;
+	border: 2px solid #bc5ebc;
+	color: #bc5ebc;
+	border-radius: 15px;
+}
+#banner
+{
+
+}
+#banner .container
+{
+	position: absolute;
+	top: 130px;
+	left: 0;
+	right: 0;
+}
+#banner .container h1
+{
+	font-size: 60px;
+	color: #fff;
+	margin: 0;
+}
+#banner .container p
+{
+	font-size: 20px;
+	color: #fff ;
+	line-height: 1;
+	
+	
+}
+#especialidad
+{/*
+	background-image: url(../img/imagen3.png);
+	background-repeat: no-repeat; 
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	*/
+	
+
+
+}
+/*div
+{
+	display: flex;
+}*/
